@@ -1,0 +1,33 @@
+.CatagoriesForMan__Parent--section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CatagoriesForMan__child--section{
+    width: 1200px;
+
+}
+.CatagoriesForMan__content--section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.CatagoriesForMan__content{
+    width: 180px;
+    margin-left: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.CatagoriesForMan__content--image{
+    width: 100%;
+}
+
+.CatagoriesForMan_text{
+    font-size: 2em;
+    font-weight: 600;
+    color: #343434;
+    border-bottom: 2px solid #f9eb28;
+    /* display: inline-block; */
+    text-align: left;
+}

@@ -1,0 +1,45 @@
+.Footer_parent--Section{
+    width: 100%;
+    background-color: black;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Footer__Details--section{
+    color: white;
+    width: 1240px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.Footer__Need-Help,
+.Footer__Company,
+.Footer__More-Info,
+.Footer__Location{
+    text-align: left;
+}
+.Footer__Title{
+    text-align: center;
+    color: yellow;
+}
+.extraStyle-location{
+    text-align: left;
+}
+.Footer__social--link__section--title{
+    color: white;
+}
+.Footer__social--link__section--icons{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.Footer__social--link__section--icons a{
+    cursor: pointer;
+}

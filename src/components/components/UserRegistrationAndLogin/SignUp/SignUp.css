@@ -1,0 +1,94 @@
+
+.Reg__Log--Main{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 100vw;
+    height: 200vh;
+    background-color:rgba(0, 0, 0, 0.7);;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.Reg__Log--Modal{
+    width: 400px;
+    height: 460px;
+    background-color: white;
+    border-radius: 10px;
+}
+/* modal image */
+.Reg__Log--Modal--img__div{
+    width: 100%;
+    position: relative;
+}
+.Reg__Log--Modal--img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+/* reg close btn */
+
+.reg__Close--btn{
+    position: absolute;
+    right:10px;
+    top: 10px;
+    font-size: 2em;
+    color: gray;
+    cursor: pointer;
+}
+
+/* text */
+.Reg__Log--Modal__info--child{
+    text-align: left;
+    margin-left: 40px;
+}
+.h3Text{
+    font-size: 1em;
+    margin-bottom: 0;
+}
+.h3Text span{
+    color: gray;
+}
+.pText{
+    margin-top: 0;
+    font-size: 0.8em;
+}
+
+/* input and btn */
+
+.Reg__Log--Modal__info--input__button--Parent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.Reg__Log--Modal__info--input{
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    outline: none;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+}
+.Reg__Log--Modal__info--button{
+    width: 85%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:cadetblue;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Reg__Log--Modal__info--Continueasguest{
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+}
+.Reg__Log--Modal__info--Continueasguest:hover{
+    color: black;
+}

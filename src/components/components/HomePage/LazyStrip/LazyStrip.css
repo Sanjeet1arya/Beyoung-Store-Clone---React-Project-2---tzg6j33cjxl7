@@ -1,0 +1,15 @@
+
+.LazyStrip--Parent__section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LazyStrip--Child__section{
+    width: 1200px;
+}
+
+.LazyStrip--image{
+    width: 100%;
+}

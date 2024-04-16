@@ -1,0 +1,36 @@
+
+.Nav__Parent--width{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.Nav__Child--1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+.Track__section{
+    display: flex;
+    align-items: center;
+}
+.material-symbols-outlined{
+    color: white;
+    font-size: 18px;
+}
+.nav__btn{
+    border: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+span{
+    color: white;
+}
+.ForgotPassWord{
+    color: black;
+    display: none;
+}

@@ -1,0 +1,65 @@
+
+.Main__Review--Parent__Section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Main__Review--child__Section{
+    display: flex;
+    gap: 10px;
+}
+.Main__Review--Image__Section{
+    width: 500px;
+    margin-right: 50px;
+}
+.Main__Review--Info__Section{
+    /* border: 1px solid black; */
+    width: 500px;
+}
+.Main__Review--Info__--Child--Section{
+    height: 200px;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+.Main__Review--Info__Title,
+.Main__Review--Info__Price,
+.Main__Review--Taxes{
+    margin: 0px;
+}
+.Main__Review--Info__Price{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.Main__Review--Taxes{
+    margin-top: 20px;
+    font-weight:lighter ;
+}
+.Main__Review--Info__--Button--Section{
+    height: 200px;
+    padding: 20px;
+    /* border: 1px solid green; */
+    
+}
+.Main__Review--Info__--Button--Addtocart{
+    width: 12em;
+    height: 3em;
+    margin-right: 20px;
+    border: none;
+    /* color: white; */
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #51cccc;
+    color: white;
+}
+.Main__Review--Info__--Button--BuyNow{
+    width: 14em;
+    height: 3em;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #f9eb28;
+}

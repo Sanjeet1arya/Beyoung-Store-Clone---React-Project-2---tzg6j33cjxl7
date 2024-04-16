@@ -1,0 +1,62 @@
+
+.SearchPage__Parent--section{
+    width: 100%;
+    /* border: 1px solid gold; */
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.SearchPage__Result--section{
+    /* width: 100px; */ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    /*  */
+}
+.SearchPage--img__section{
+    width: 100%;
+    height: 350px;
+}
+.SearchPage__Content--section{
+    width: 300px;
+    border: 1px solid gray;
+    height: 460px;
+}
+.SearchPage--img__section{
+    width: 100%;
+    height: 350px;
+    cursor: pointer;
+}
+
+.Search__Price{
+    color: gray;
+    
+}
+.SearchPage_Result--product_info--section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.SearchPage_Result--name{
+    /* height: 100px; */
+    padding: 5px;
+    margin: 0;
+    font-size: 0.8em;
+    
+}
+.SearchPage_Result--price__favourite{
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Search__Price--h3{
+    margin: 0;
+}
+.Search__name--h3{
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+}

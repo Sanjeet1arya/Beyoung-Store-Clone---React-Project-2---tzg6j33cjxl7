@@ -1,0 +1,82 @@
+.search{
+    color: blue;
+}
+.main__Menu{
+    height: 30px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+.Main__Menu--logoImage{
+    height: 30px;
+    cursor: pointer;
+}
+.search__Input{
+    font-size: 0.em;
+    padding: 5px;
+    border: 0.1 solid gray;
+    outline: none;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+    width: 15em;
+}
+.search{
+    font-weight: bolder;
+}
+.search,
+.favourite,
+.shoppingCart{
+    color: black;
+    position: relative;
+    margin-left:20px ;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.Main__Menu--center{
+    display: flex;
+    justify-content: center;
+}
+.Main__Menu--btn{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 auto;
+}
+.Main__Menu--btn:hover{
+    background-color: yellow;
+    
+}
+.Logo__item--container{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.stiky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+/* search */
+.Main__Menu--ParentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main__Menu--search{
+    width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    margin-top: 30px;
+}
+.Main__Menu--logoItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
